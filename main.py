@@ -21,7 +21,7 @@ RE-EVALUATION REFLECTION:
 If I spent 2 more hours on this project, I would implement a 'Synthetic User' benchmarking suite 
 to quantitatively assess prompt performance. Drawing on my background in technical benchmarking, 
 I would create a set of 50 test prompts ranging from standard requests to edge-case, high-risk 
-topics. I would automate the evaluation using a more powerful model (like GPT-4o) to calculate 
+topics. I would automate the evaluation using a more powerful model (like GPT-5.5 Instant/Thinking) to calculate 
 semantic similarity and safety compliance scores across different versions of my system prompts. 
 I would also add a 'Memory' module using a lightweight vector database to allow for character 
 consistency across different story sessions.
