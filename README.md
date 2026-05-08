@@ -8,7 +8,6 @@ An agentic, multi-stage story generation pipeline designed to create safe, engag
     pip install -r requirements.txt
 ```
 2. Ensure you have a functional API key in the **_keys.env_** file as a string in the line: **OPENAI_API_KEY="[Your API Key]"**
-<br>
 3. Run **_main.py_** and interact with the prompts in the terminal!
 
 ## System Architecture: The Actor-Critic Loop
