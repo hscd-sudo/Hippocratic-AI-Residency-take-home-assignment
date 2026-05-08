@@ -27,6 +27,6 @@ graph TD
     Judge --- Quality[Narrative Quality]
     end
 
-    style User fill:#f9f,stroke:#333,stroke-width:2px
-    style Output fill:#bfb,stroke:#333,stroke-width:2px
-    style Logic fill:#f96,stroke:#333,stroke-width:2px
+    style User fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style Output fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style Logic fill:#f96,stroke:#333,stroke-width:2px,color:#000
