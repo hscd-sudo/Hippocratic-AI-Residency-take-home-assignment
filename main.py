@@ -75,7 +75,6 @@ class StoryEngine:
         if not api_key:
             raise ValueError("API Key not found. Please check your keys.env file.")
         
-        # New OpenAI Client structure (v1.0.0+)
         self.client = OpenAI(api_key=api_key)
         self.model = model
         self.max_retries = max_retries
@@ -128,7 +127,7 @@ class StoryEngine:
             evaluation = self.evaluate_story(current_story)
             scores = evaluation.get("scores", {})
             
-            # --- NEW: VISUAL AUDIT REPORT ---
+            # --- VISUAL AUDIT REPORT ---
             print(f"\n--- 📋 JUDGE AUDIT: DRAFT {i+1} ---")
             print(f"🛡️  Safety: {scores.get('safety', 'N/A')}/5")
             print(f"👶 Age Relevance: {scores.get('age_relevance', 'N/A')}/5")
